@@ -9,6 +9,9 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -27,6 +30,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-right: 10px;
 }
 
 button {
@@ -37,12 +41,26 @@ button {
   padding: 8px 24px;
 }
 
-a {
-  /* this removes the line under our links */
-  text-decoration: none;
-  color: rebeccapurple;
-}
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+  gap: 10px;
+
 }
+
+a {
+  text-decoration: none;
+  color: rebeccapurple;
+  margin: 10px; 
+}
+
+.second, .first{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+

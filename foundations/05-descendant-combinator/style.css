@@ -1,0 +1,13 @@
+.container .text{
+    background-color: hsl(60, 100%, 50%);
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+div p{
+    background-color: hsl(60, 100%, 50%);
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
